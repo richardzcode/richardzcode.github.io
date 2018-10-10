@@ -11,11 +11,9 @@ export default class Work extends Component {
           <Card.Title>
             <BA href={work.url} text="light">{work.title}</BA>
           </Card.Title>
-          <Card.Text>
-            <BPre text="muted" style={{ whiteSpace: 'pre-wrap' }}>
-              {work.description}
-            </BPre>
-          </Card.Text>
+          <BPre text="muted" style={{ whiteSpace: 'pre-wrap' }}>
+            {work.description}
+          </BPre>
         </Card.Body>
       </Card>
     )

@@ -7,9 +7,7 @@ const md = new Remarkable('full', { html: true });
 const Description = props => {
   const html = md.render(props.children);
   return (
-    <Lead>
-      <div style={{ fontSize: '0.8em' }} dangerouslySetInnerHTML={{ __html: html }}>
-      </div>
+    <Lead style={{ fontSize: '1em' }} dangerouslySetInnerHTML={{ __html: html }}>
     </Lead>
   )
 }

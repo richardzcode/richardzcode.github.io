@@ -21,17 +21,25 @@ const b4r = {
   url: 'https://bootstrap-4-react.com/'
 }
 
+const amplify = {
+  title: 'AWS Amplify',
+  description: 'The foundation for your cloud-powered mobile & web apps',
+  screenshot: '/img/amplify-site.png',
+  url: 'https://aws-amplify.github.io/'
+}
+
 const projects = [
   dochameleon,
-  b4r
+  b4r,
+  amplify
 ]
 
 export default class ProjectList extends Component {
   render() {
     return (
       <React.Fragment>
-      { projects.map(project => (
-        <BDiv mt="3" p="3">
+      { projects.map((project, index) => (
+        <BDiv key={index} mt="3" p="3">
           <Project project={project} />
         </BDiv>
       ))}
