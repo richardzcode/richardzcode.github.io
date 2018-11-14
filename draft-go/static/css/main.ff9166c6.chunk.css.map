@@ -1,0 +1,1 @@
+{"version":3,"sources":["/Users/rizhang/Projects/richardzcode/draft-go/site/src/App.css"],"names":[],"mappings":"AAAA,KACE,gBAAkB,CACnB,AACD,kBACE,oBAAqB,AACrB,iBAAmB,CACpB","file":"main.ff9166c6.chunk.css","sourcesContent":["body {\n  padding-top: 5rem;\n}\n.starter-template {\n  padding: 3rem 1.5rem;\n  text-align: center;\n}\n"]}
