@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/draft-go/static/js/runtime~main.6087ba7b.js"
   },
   {
-    "revision": "3749a7599eb3a59e0277",
-    "url": "/draft-go/static/js/main.3749a759.chunk.js"
+    "revision": "c0d3a1d7cbf7ef97a125",
+    "url": "/draft-go/static/js/main.c0d3a1d7.chunk.js"
   },
   {
-    "revision": "c149a8d9cb8544064aa6",
-    "url": "/draft-go/static/js/1.c149a8d9.chunk.js"
+    "revision": "15895801a51a96e6fd0f",
+    "url": "/draft-go/static/js/1.15895801.chunk.js"
   },
   {
-    "revision": "3749a7599eb3a59e0277",
+    "revision": "c0d3a1d7cbf7ef97a125",
     "url": "/draft-go/static/css/main.ff9166c6.chunk.css"
   },
   {
-    "revision": "c149a8d9cb8544064aa6",
+    "revision": "15895801a51a96e6fd0f",
     "url": "/draft-go/static/css/1.b57abc4f.chunk.css"
   },
   {
-    "revision": "3783869eee0ec11f26ad1fcdb99f3935",
+    "revision": "77b5e5d4a7eb472c5c58d9ad3fb0b0c5",
     "url": "/draft-go/index.html"
   }
 ];
